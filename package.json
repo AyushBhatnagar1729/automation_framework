@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "testcafe": "^2.0.0"
+  },
+  "name": "testcafe_framework",
+  "version": "1.0.0",
+  "description": "demo framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/testcafe chrome tests/test_*.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
